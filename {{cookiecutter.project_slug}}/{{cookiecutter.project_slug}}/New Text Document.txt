@@ -1,0 +1,6 @@
+import logging
+
+logging.getLogger(__name__).addHandler(logging.NullHandler())
+
+def some_function():
+    logging.info('a log entry created from a module and called some_function')
