@@ -12,7 +12,7 @@ user_path = os.path.realpath("/etc/")
 user_project_path = os.path.realpath("/etc/{{cookiecutter.project_slug}}/")
 cur_rel_path = os.path.relpath(os.path.join(os.path.dirname(__file__), "/../../etc/"))
 cur_abs_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..\\", "..\\", "etc"))
-env_var = os.environ.get("BOILERFIDDLER_CONF") or ""
+env_var = os.environ.get("{{cookiecutter.project_slug}}") or ""
 settings = None
 locations = [os.curdir, user_path, user_project_path, cur_rel_path, cur_abs_path, env_var]
 

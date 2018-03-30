@@ -60,3 +60,8 @@ target/
 
 # pyenv python configuration file
 .python-version
+
+# PyCharm setup
+.idea/workspace.xml
+.idea/tasks.xml
+.ipynb_checkpoints/
