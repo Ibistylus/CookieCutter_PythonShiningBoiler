@@ -20,5 +20,5 @@ def main():
     {{cookiecutter.project_slug}}_a_module.some_function()
 
 
-if __name__ == '__main__':  
+if __name__ == '__main__':
     main()
