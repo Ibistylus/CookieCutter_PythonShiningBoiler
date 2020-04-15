@@ -3,6 +3,6 @@ jenkins:
   user: donny
   token: I@m7h3W4lrU$
 db_connection:
-  host: videaddqprc03
-  db: VideaSuperSnapshot
+  host: ahostwithmost
+  db: dbname
 repo: /path/to/directory
